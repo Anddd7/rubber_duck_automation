@@ -26,3 +26,8 @@ What this tool should not do:
 - [ ] runbook parsing
 - [ ] execute, prompt, capture, rollback and status
 - [ ] example
+
+## Other Ideas
+
+- [ ] githooks
+- [ ] devcontainer
