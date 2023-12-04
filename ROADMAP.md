@@ -19,15 +19,35 @@ What this tool should not do:
 
 ## Version Planning
 
+### 0.2.0
+
+Another prototype: markdown x terminal-ui
+
+- [ ] markdown template
+- [ ] metadata
+- [ ] golang cli structure
+- [ ] terminal-ui design
+
+Available libraries:
+
+- <https://github.com/hairyhenderson/gomplate>
+- <https://github.com/manifoldco/promptui>
+- <https://github.com/charmbracelet/bubbletea>
+
 ### 0.1.0
 
-- [ ] golang cli structure
-- [ ] runbook template
-- [ ] runbook parsing
-- [ ] execute, prompt, capture, rollback and status
-- [ ] example
+Use jupyter notebook to construct a runbook.
+
+[Pros & Cons](./jupyter/README.md#mvp-1---jupyter-notebook)
+
+- [ ] ~~golang cli structure~~
+- [x] runbook template
+- [ ] ~~runbook parsing~~
+- [x] execute, prompt, capture, rollback and status
+- [x] example
 
 ## Other Ideas
 
 - [ ] githooks
 - [ ] devcontainer
+- [ ] vscode extension (LSP)
